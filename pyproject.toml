@@ -22,3 +22,7 @@ dev = [
     "pytest-cov",
     "hypothesis",
 ]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["agent_proving_ground*"]

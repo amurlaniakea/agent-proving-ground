@@ -1,4 +1,4 @@
-# agent-proving-ground
+# 🧪 agent-proving-ground
 
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![License: AGPL-3.0-or-later](https://img.shields.io/badge/License-AGPL--3.0--or--later-green.svg)](https://www.gnu.org/licenses/agpl-3.0)
@@ -60,5 +60,3 @@ git clone https://github.com/amurlaniakea/agent-proving-ground.git
 
 **Pedro Sordo Martínez** — `amurlaniakea@gmail.com`
 
-`SPDX-FileCopyrightText: 2026 Pedro Sordo Martínez <amurlaniakea@gmail.com>`
-`SPDX-License-Identifier: AGPL-3.0-or-later`
