@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-proving-ground"
+version = "0.1.0"
+authors = [
+  { name = "Pedro Sordo Martínez", email = "amurlaniakea@gmail.com" },
+]
+description = "Deterministic adversarial evaluation framework for LLM agents."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic",
+    "scikit-learn",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "hypothesis",
+]
