@@ -13,8 +13,9 @@ Los benchmarks actuales para agentes (`AgentHarm`, `EconEvals`) son frágiles (`
 
 ---
 
-## Referencias Verificadas
+## Referencias Académicas Verificadas
 
+- `arXiv:2610.19159` — *Into the Unknown: Benchmarking AI agents on open scientific research problems* (Kim et al., 2026; repositorio oficial `prometheus-eval/into-the-unknown`). Archivo físico verificado: `/mnt/c/Users/Sil/Downloads/2610.19159v1.pdf` (5.7 MB, 2026-10-20). **Relevancia para este proyecto**: el estudio identifica la `execution hallucination` y la `evidence contradiction` como fallas críticas en agentes de investigación científica. Nuestro módulo `EXECUTION_HALLUCINATION` y la `Canary Trap` (`Proyecto_Fénix_Datos.csv`) automatizan de forma determinista la detección de estos comportamientos, traduciendo la rúbrica manual propuesta por los autores a un framework de evaluación reproducible.
 - `arXiv:2605.10779` — `LITMUS`: Benchmark de `behavioral jailbreaks` en `OS` reales con verificación dual.
 - `arXiv:2605.22568` — `Measuring Security Without Fooling Ourselves`: Por qué los benchmarks actuales son engañosos.
 - `arXiv:2607.25379` — `Cyber-Capable AI Agents`: Vulnerabilidades, evaluación y respuesta defensiva.
